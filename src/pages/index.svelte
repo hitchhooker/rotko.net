@@ -11,7 +11,7 @@
         <img
           src="images/logo.svg"
           alt="Rotko Networks"
-          class="mx-auto max-w-3xl max-h-md w-10/12 sm:w-8/12 md:w-6/12"
+          class="mx-auto max-w-500px max-h-150px w-10/12 sm:w-8/12 md:w-6/12 mb-4"
         />
       </Heading>
       <p
