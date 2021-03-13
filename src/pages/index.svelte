@@ -3,7 +3,7 @@
 </script>
 
 <body class="text-gray-200 bg-gray-900 min-h-screen">
-  <header class="max-w-6xl mx-auto sm:px-5 py-18">
+  <header class="max-w-6xl mx-auto sm:px-5 py-12">
     <div class="text-center">
       <Heading
         class="title-font mb-4 text-4xl font-extrabold leading-10 tracking-tight sm:text-5xl sm:leading-none md:text-6xl"
