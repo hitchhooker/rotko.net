@@ -189,18 +189,21 @@
               class="border p-2 mt-3 w-full "
             />
           </div>
-          <p class="font-bold text-sm mt-3">GDPR Agreement *</p>
-          <div class="flex items-baseline space-x-2 mt-2">
-            <input type="checkbox" name="" id="" class="inline-block" />
-            <p class="text-gray-200 text-sm">
-              I consent to having this website store my submitted information so
-              they can respond to my inquiry.
-            </p>
-          </div>
+          
+            <p class="font-bold text-sm mt-3">GDPR Agreement *</p>
+            <div class="flex items-baseline space-x-2 mt-2">
+              <input type="checkbox" name="gpdr" id="" class="inline-block" />
+            <label for="gpdr">
+              <p class="text-gray-200 text-sm">
+                I consent to having this website store my submitted information so
+                they can respond to my inquiry.
+              </p>
+            </label>
+            </div>
           <input
             type="submit"
             value="Submit"
-            class="w-full mt-3 bg-cyan-600 hover:bg-cyan-500 text-white font-semibold p-3"
+            class="w-full mt-3 bg-cyan-700 hover:bg-cyan-600 text-white font-semibold p-3"
           />
         </form>
       </div>
