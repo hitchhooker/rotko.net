@@ -20,6 +20,7 @@
 </script>
 
 <Heading>https://jsonplaceholder.typicode.com/guide/</Heading>
+<p>pruut</p>
 
 <button on:click={doCall}> Make an API POST call </button>
 
