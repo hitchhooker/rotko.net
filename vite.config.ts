@@ -42,7 +42,7 @@ export default defineConfig(({ command, mode }) => {
         verbose: true,
         silent: false,
         debug: true,
-        config: "tailwind.config.js", // tailwind config file path (optional)
+        config: "src/tailwind.config.js", // tailwind config file path (optional)
         compile: false, // false: interpretation mode; true: compilation mode
         prefix: "windi-", // set compilation mode style prefix
         globalPreflight: true, // set preflight style is global or scoped
