@@ -1,1 +1,1 @@
-<h2><slot></slot></h2>
+<h1><slot></slot></h1>
