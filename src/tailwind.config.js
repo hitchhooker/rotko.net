@@ -8,9 +8,6 @@ module.exports = {
           700: "#750000",
         },
       },
-    },
-    plugins: [
-      require('tailwindcss-textshadow')
-    ]
+    },  
   },
 };
