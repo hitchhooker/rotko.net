@@ -29,7 +29,9 @@
     <div class="flex flex-wrap w-10/12 md:w-full lg:w-11/12 xl:w-10/12 mx-auto">
       <div class=" md:w-1/3 md:mb-0 mb-6 flex flex-col md:pl-10 md:pr-5">
         <div
-          class="rounded-t-3xl md:rounded-tr-none rounded-bl-none md:rounded-l-3xl bg-gradient-to-b md:bg-gradient-to-r from-cyan-800 to-gray-800 p-4 shadow-inner"
+          class="rounded-t-3xl md:rounded-tr-none rounded-bl-none md:rounded-l-3xl 
+          bg-gradient-to-b md:bg-gradient-to-r from-cyan-800 to-gray-800
+          p-4 lg:opacity-85 lg:hover:opacity-95 shadow-inner"
         >
           <div
             class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-green-100 text-green-500 mb-5 flex-shrink-0"
@@ -61,7 +63,8 @@
         </div>
       </div>
       <div class="md:w-1/3 md:mb-0 mb-6 flex flex-col md:px-5">
-        <div class="rounded bg-gray-800 p-4">
+        <div class="rounded bg-gray-800 p-4 
+        shadow-inner  lg:opacity-85 lg:hover:opacity-95">
           <div
             class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-blue-100 text-blue-500 mb-5 flex-shrink-0"
           >
@@ -95,7 +98,9 @@
       </div>
       <div class="md:w-1/3 md:mb-0 mb-6 flex flex-col md:pl-5 md:pr-10">
         <div
-          class="rounded-b-3xl md:rounded-bl-none rounded-tr-none md:rounded-r-3xl bg-gradient-to-t md:bg-gradient-to-l from-cyan-800 to-gray-800 p-4"
+          class="rounded-b-3xl md:rounded-bl-none rounded-tr-none md:rounded-r-3xl
+           bg-gradient-to-t md:bg-gradient-to-l from-cyan-800 to-gray-800
+            p-4 shadow-inner  lg:opacity-85 lg:hover:opacity-95"
         >
           <div
             class="w-10 h-10 inline-flex items-center justify-centr rounded-full bg-yellow-100 text-yellow-500 mb-5 flex-shrink-0"
@@ -130,7 +135,9 @@
     </div>
     <div class="flex flex-wrap w-10/12 md:w-full lg:w-11/12 xl:w-10/12 mx-auto justify-center">
       <div
-        class="my-5 mb-10 md:mb-0 md:my-10 md:w-8/12 lg:w-6/12 m-0 md:m-10 rounded-3xl bg-gradient-to-b from-cyan-800 to-gray-800"
+        class="my-5 mb-10 md:mb-0 md:my-10 md:w-8/12 lg:w-6/12 m-0 md:m-10
+         rounded-3xl bg-gradient-to-b from-cyan-800 to-gray-800
+         shadow-inner  lg:opacity-85 lg:hover:opacity-95"
       >
         <form action="" class="form p-6 relative">
           <div
