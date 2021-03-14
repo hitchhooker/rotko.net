@@ -2,8 +2,10 @@
   import Heading from "../components/Heading.svelte";
 </script>
 
-<body class="text-gray-200 
-bg-gradient-to-t md:bg-gradient-to-t from-gray-900 to-cyan-900 min-h-screen">
+<body
+  class="text-gray-200 
+bg-gradient-to-t md:bg-gradient-to-t from-gray-900 to-cyan-900 min-h-screen"
+>
   <header class="max-w-6xl mx-auto sm:px-5 py-12">
     <div class="text-center">
       <Heading
@@ -117,7 +119,7 @@ bg-gradient-to-t md:bg-gradient-to-t from-gray-900 to-cyan-900 min-h-screen">
               stroke="currentColor"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
-              >
+            >
               <path
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -191,17 +193,17 @@ bg-gradient-to-t md:bg-gradient-to-t from-gray-900 to-cyan-900 min-h-screen">
               class="border p-2 mt-3 w-full "
             />
           </div>
-          
-            <p class="font-bold text-sm mt-3">GDPR Agreement *</p>
-            <div class="flex items-baseline space-x-2 mt-2">
-              <input type="checkbox" name="gpdr" id="" class="inline-block" />
+
+          <p class="font-bold text-sm mt-3">GDPR Agreement *</p>
+          <div class="flex items-baseline space-x-2 mt-2">
+            <input type="checkbox" name="gpdr" id="" class="inline-block" />
             <label for="gpdr">
               <p class="text-gray-200 text-sm">
-                I consent to having this website store my submitted information so
-                they can respond to my inquiry.
+                I consent to having this website store my submitted information
+                so they can respond to my inquiry.
               </p>
             </label>
-            </div>
+          </div>
           <input
             type="submit"
             value="Submit"
