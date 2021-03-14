@@ -2,7 +2,8 @@
   import Heading from "../components/Heading.svelte";
 </script>
 
-<body class="text-gray-200 bg-gray-900 min-h-screen">
+<body class="text-gray-200 
+bg-gradient-to-t md:bg-gradient-to-t from-gray-900 to-cyan-900 min-h-screen">
   <header class="max-w-6xl mx-auto sm:px-5 py-12">
     <div class="text-center">
       <Heading
@@ -33,7 +34,7 @@
         <div
           class="rounded-t-3xl md:rounded-tr-none rounded-bl-none md:rounded-l-3xl 
           bg-gradient-to-b md:bg-gradient-to-r from-gray-800 to-cyan-800
-          p-4 lg:opacity-85 lg:hover:opacity-95 shadow-inner"
+          p-4 lg:opacity-100 lg:hover:opacity-90 shadow-2xl"
         >
           <div
             class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-green-100 text-green-500 mb-5 flex-shrink-0"
@@ -70,7 +71,8 @@
         shadow-inner  lg:opacity-85 lg:hover:opacity-95"
         >
           <div
-            class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-blue-100 text-blue-500 mb-5 flex-shrink-0"
+            class="w-10 h-10 inline-flex items-center justify-center rounded-full 
+            bg-blue-100 text-blue-500 mb-5 flex-shrink-0"
           >
             <svg
               class="w-6 h-6"
