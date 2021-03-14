@@ -34,7 +34,7 @@ bg-gradient-to-t md:bg-gradient-to-t from-gray-900 to-cyan-900 min-h-screen">
         <div
           class="rounded-t-3xl md:rounded-tr-none rounded-bl-none md:rounded-l-3xl 
           bg-gradient-to-b md:bg-gradient-to-r from-gray-800 to-cyan-800
-          p-4 lg:opacity-100 lg:hover:opacity-90 shadow-2xl"
+          p-4 lg:opacity-85 lg:hover:opacity-95 shadow-2xl"
         >
           <div
             class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-green-100 text-green-500 mb-5 flex-shrink-0"
@@ -65,10 +65,10 @@ bg-gradient-to-t md:bg-gradient-to-t from-gray-900 to-cyan-900 min-h-screen">
           </div>
         </div>
       </div>
-      <div class="md:w-1/3 md:mb-0 mb-6 flex flex-col md:px-5">
+      <div class="md:w-1/3 md:mb-0 mb-6 flex flex-col md:px-0">
         <div
           class="rounded bg-cyan-800 p-4 
-        shadow-inner  lg:opacity-85 lg:hover:opacity-95"
+        shadow-3xl lg:opacity-85 lg:hover:opacity-95"
         >
           <div
             class="w-10 h-10 inline-flex items-center justify-center rounded-full 
@@ -106,7 +106,7 @@ bg-gradient-to-t md:bg-gradient-to-t from-gray-900 to-cyan-900 min-h-screen">
         <div
           class="rounded-b-3xl md:rounded-bl-none rounded-tr-none md:rounded-r-3xl
            bg-gradient-to-t md:bg-gradient-to-l from-gray-800 to-cyan-800
-            p-4 shadow-inner  lg:opacity-85 lg:hover:opacity-95"
+            p-4 shadow-3xl  lg:opacity-85 lg:hover:opacity-95"
         >
           <div
             class="w-10 h-10 inline-flex items-center justify-centr rounded-full bg-yellow-100 text-yellow-500 mb-5 flex-shrink-0"
@@ -145,7 +145,7 @@ bg-gradient-to-t md:bg-gradient-to-t from-gray-900 to-cyan-900 min-h-screen">
       <div
         class="my-5 mb-10 md:mb-0 md:my-10 md:w-8/12 lg:w-6/12 m-0 md:m-10
          rounded-3xl bg-gradient-to-b from-cyan-800 to-gray-800
-         shadow-inner  lg:opacity-85 lg:hover:opacity-95"
+         shadow-3xl  lg:opacity-85 lg:hover:opacity-95"
       >
         <form action="" class="form p-6 relative">
           <div
