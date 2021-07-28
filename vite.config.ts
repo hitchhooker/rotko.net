@@ -1,5 +1,5 @@
 import { resolve } from "path";
-import svelte from "@sveltejs/vite-plugin-svelte";
+import { svelte } from "@sveltejs/vite-plugin-svelte";
 import windiCSS from "vite-plugin-windicss";
 import { minify } from "html-minifier";
 
